@@ -1,0 +1,532 @@
+<resources>
+    <string name="app_name">Namma reshme</string>
+    <string name="app_title">Reshme-Namma Pride</string>
+    <string name="app_subtitle">Smart Silk Farming Assistant</string>
+
+    <!-- Google Sign-In -->
+    <string name="default_web_client_id">866844091151-pbq6unv8r057m6483h66r00000000000.apps.googleusercontent.com</string>
+
+    <!-- Dashboard -->
+    <string name="good_morning">Good Morning, %1$s! ☀️</string>
+    <string name="good_afternoon">Good Afternoon, %1$s! ☀️</string>
+    <string name="good_evening">Good Evening, %1$s! 🌙</string>
+    <string name="productive_day">Let\'s make today a productive silk farming day.</string>
+    <string name="current_climate">Current Climate</string>
+    <string name="log_climate">Log Climate Entry</string>
+    <string name="add_batch">Add Batch</string>
+    <string name="add_batch_desc">Add new silkworm batch details</string>
+    <string name="climate_entry">Climate Entry</string>
+    <string name="climate_entry_desc">Enter temperature and humidity</string>
+    <string name="smart_advice">Smart Advice</string>
+    <string name="smart_advice_desc">Get AI-based advice and alerts</string>
+    <string name="harvest_timer">Harvest Timer</string>
+    <string name="harvest_timer_desc">Track days and get harvest reminders</string>
+    <string name="batch_history">Batch History</string>
+    <string name="batch_history_desc">View past batches and records</string>
+    <string name="alerts">Alerts</string>
+    <string name="alerts_desc">View important alerts and warnings</string>
+    <string name="all_systems_normal">All Systems Normal</string>
+    <string name="monitoring_desc">Keep monitoring for results.</string>
+    <string name="view_all_alerts">View All Alerts</string>
+    <string name="system_healthy">System Healthy</string>
+    <string name="all_parameters_normal">All parameters are within normal range</string>
+    <string name="action_required_status">Action Required</string>
+    <string name="climate_outside_range">Climate outside optimal range</string>
+    <string name="unknown_location">Unknown Location</string>
+    <string name="no_weather_data_warning">No weather data. Please set location.</string>
+    <string name="farmer_default_name">Farmer</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="batches">Batches</string>
+    <string name="climate">Climate</string>
+    <string name="profile">Profile</string>
+    <string name="notifications">Notifications</string>
+
+    <!-- Auth -->
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="create_account">Create Account</string>
+    <string name="login_continue">Login to continue</string>
+    <string name="signup_start">Sign up to start farming</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_phone">Enter phone number</string>
+    <string name="enter_password">Enter password</string>
+    <string name="forgot_password_q">Forgot Password?</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="auth_promo_text">Get smart advice, alerts and silk farming guidance - in your language!</string>
+    <string name="or_text"> OR </string>
+    <string name="error_fill_fields">Please fill all fields properly</string>
+    <string name="registration_success_msg">Registration successful! Please login.</string>
+    <string name="google_sign_in_failed">Google sign in failed: %1$s</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="enter_phone_reset_desc">Enter your phone number to reset password</string>
+
+    <!-- Profile -->
+    <string name="my_profile">My Profile</string>
+    <string name="manage_account_pref">Manage your account and preferences</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirm">Are you sure you want to log out from your account?</string>
+    <string name="cancel">Cancel</string>
+    <string name="verified_farmer">Verified Farmer</string>
+    <string name="farm_overview">Farm Overview</string>
+    <string name="view_farm_details">View Farm Details</string>
+    <string name="active_batches">Active Batches</string>
+    <string name="total_batches">Total Batches</string>
+    <string name="total_cocoons">Total Cocoons</string>
+    <string name="avg_survival_rate">Avg. Survival Rate</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="app_settings">App Settings</string>
+    <string name="personal_info">Personal Information</string>
+    <string name="personal_info_desc">Update your name, contact and address</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_password_desc">Update your account password</string>
+    <string name="language">Language</string>
+    <string name="language_desc">Choose your preferred language</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="notification_settings_desc">Manage your notification preferences</string>
+    <string name="preferences">Units &amp; Preferences</string>
+    <string name="preferences_desc">Set temperature units and other preferences</string>
+    <string name="data_sync">Data Sync</string>
+    <string name="last_synced">Last synced: Today, 08:30 AM</string>
+    <string name="backup_restore">Backup &amp; Restore</string>
+    <string name="backup_desc">Backup your farm data</string>
+    <string name="export_data">Export My Data</string>
+    <string name="export_desc">Download your farm data</string>
+    <string name="help_support">Help &amp; Support</string>
+    <string name="help_desc">Get help and contact support</string>
+    <string name="about_app">About App</string>
+    <string name="version_text">Version 1.0.0</string>
+    <string name="need_help">Need Help?</string>
+    <string name="help_q_desc">We are here to help you with any questions.</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="support_email">support@nammareshme.com</string>
+    <string name="support_phone">+91 98765 43210</string>
+    <string name="support_desc">Our experts are available from 9 AM to 6 PM (Mon-Sat) to assist you with your silk farming needs.</string>
+    <string name="profile_updated">Profile updated</string>
+    <string name="use_current_loc_desc">Use current location</string>
+
+    <!-- Profile Details -->
+    <string name="primary_details">Primary Details</string>
+    <string name="email_address">Email Address</string>
+    <string name="farm_name">Farm Name</string>
+    <string name="address_location">Address / Location</string>
+    <string name="security_update">Security Update</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="password_hint">Password must be at least 8 characters long and include special characters.</string>
+    <string name="alert_preferences">Alert Preferences</string>
+    <string name="batch_progress_alerts">Batch Progress Alerts</string>
+    <string name="batch_progress_desc">Get notified about stage transitions</string>
+    <string name="climate_threshold_alerts">Climate Threshold Alerts</string>
+    <string name="climate_threshold_desc">Warnings for temp/humidity shifts</string>
+    <string name="feeding_reminders">Feeding Reminders</string>
+    <string name="feeding_desc">Daily schedule notifications</string>
+    <string name="system_notifications">System Notifications</string>
+    <string name="system_desc">App updates and announcements</string>
+    <string name="measurement_units">Measurement Units</string>
+    <string name="temp_unit">Temperature Unit</string>
+    <string name="weight_unit">Weight Unit</string>
+    <string name="display_preferences">Display Preferences</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="dark_mode_desc">Use darker colors for night viewing</string>
+    <string name="cloud_sync">Cloud Synchronization</string>
+    <string name="data_up_to_date">All data is up to date</string>
+    <string name="auto_sync">Automatic Sync</string>
+    <string name="auto_sync_desc">Sync data automatically over Wi-Fi</string>
+    <string name="sync_now">Sync Now</string>
+    <string name="manage_backups">Manage Data Backups</string>
+    <string name="create_backup">Create New Backup</string>
+    <string name="previous_backups">Previous Backups</string>
+    <string name="export_config">Export Configuration</string>
+    <string name="data_range">Data Range</string>
+    <string name="file_format">File Format</string>
+    <string name="faqs">Frequently Asked Questions</string>
+    <string name="contact_channels">Contact Channels</string>
+    <string name="chat_support">Chat with Support</string>
+    <string name="email_support">Email Support Team</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_service">Terms of Service</string>
+    <string name="licenses">Licenses</string>
+    <string name="developed_by">Developed by SilkTech Solutions</string>
+    <string name="farm_infra">Farm Infrastructure</string>
+    <string name="rearing_house_type">Rearing House Type</string>
+    <string name="total_floor_area">Total Floor Area</string>
+    <string name="shelf_capacity">Shelf Capacity</string>
+    <string name="mulberry_variety">Mulberry Variety</string>
+    <string name="water_irrigation">Water &amp; Irrigation</string>
+    <string name="water_source">Water Source</string>
+    <string name="irrigation_type">Irrigation Type</string>
+    <string name="lat_lon_format">Lat: %1$.4f, Lon: %2$.4f</string>
+    <string name="celsius">Celsius (°C)</string>
+    <string name="fahrenheit">Fahrenheit (°F)</string>
+    <string name="kilograms">Kilograms (kg)</string>
+    <string name="grams">Grams (g)</string>
+    <string name="pounds">Pounds (lb)</string>
+    <string name="controlled_env">Controlled Environment</string>
+    <string name="sq_ft_format">%1$s sq. ft.</string>
+    <string name="trays_format">%1$s Trays</string>
+    <string name="variety_format">%1$s Variety</string>
+    <string name="borewell">Borewell</string>
+    <string name="drip_system">Drip System</string>
+    <string name="backup_file_detail">%1$s • %2$s</string>
+    <string name="not_available">N/A</string>
+
+    <!-- Forms & History -->
+    <string name="batch_name_label">1. Batch Name *</string>
+    <string name="batch_name_placeholder">Enter batch name (e.g., MYS-250515-03)</string>
+    <string name="batch_name_helper">Use a unique name to easily identify your batch</string>
+    <string name="breed_type_label">2. Breed Type *</string>
+    <string name="breed_type_placeholder">Select breed type</string>
+    <string name="mulberry_type_label">3. Mulberry Type *</string>
+    <string name="mulberry_type_placeholder">Select mulberry type</string>
+    <string name="start_date_label">4. Start Date *</string>
+    <string name="instar_stage_label">5. Current Instar *</string>
+    <string name="instar_stage_placeholder">Select stage</string>
+    <string name="notes_label">6. Notes (Optional)</string>
+    <string name="notes_placeholder">Add any notes about this batch</string>
+    <string name="save_batch">Save Batch</string>
+    <string name="fill_required">Please fill all required fields</string>
+    <string name="save_success">Saved successfully!</string>
+    <string name="tip_text">Tip: Accurate information helps in better climate tracking.</string>
+    <string name="confirm">Confirm</string>
+    <string name="select">Select</string>
+
+    <string name="temp_label">Temperature (°C)</string>
+    <string name="hum_label">Humidity (%)</string>
+    <string name="enter_temp">Enter temperature</string>
+    <string name="enter_hum">Enter humidity</string>
+    <string name="log_entry">Log Entry</string>
+
+    <string name="search_batches">Search batches…</string>
+    <string name="filter">Filter</string>
+    <string name="all_tab">All</string>
+    <string name="completed_tab">Completed</string>
+    <string name="active_tab">Active</string>
+    <string name="cancelled_tab">Cancelled</string>
+    <string name="total_label">Total</string>
+    <string name="done_label">Done</string>
+    <string name="live_label">Live</string>
+    <string name="stopped_label">Stopped</string>
+    <string name="breed_label">Breed:</string>
+    <string name="start_date_c">Start Date:</string>
+    <string name="end_date_c">End Date:</string>
+    <string name="stage_label">Stage:</string>
+    <string name="cancelled_on_c">Cancelled On:</string>
+    <string name="batch_in_progress">In Progress</string>
+    <string name="upcoming_label">Upcoming</string>
+    <string name="no_batches_found">No batches found</string>
+    <string name="view_detailed_records_info">You can view detailed records for each batch.</string>
+    <string name="total_days_label">Total Days</string>
+
+    <!-- Alerts Screen -->
+    <string name="critical_label">Critical</string>
+    <string name="warning_label">Warning</string>
+    <string name="info_label">Info</string>
+    <string name="all_clear_label">All Clear</string>
+    <string name="action_required">Action Required</string>
+    <string name="attention_label">Attention</string>
+    <string name="updates_label">Updates</string>
+    <string name="normal_label">Normal</string>
+    <string name="view_history">View Notification History</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+
+    <!-- Smart Advice -->
+    <string name="temperature">Temperature</string>
+    <string name="humidity_label">Humidity</string>
+    <string name="updated_at">Updated At</string>
+    <string name="overall_status">Overall Status</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="no_active_alerts">No active alerts</string>
+    <string name="advice_footer">Advice is generated based on current climate and best practices.</string>
+    <string name="optimal">Optimal</string>
+    <string name="fair">Fair</string>
+    <string name="critical">Critical</string>
+    <string name="good">Good</string>
+    <string name="just_now">Just now</string>
+    <string name="live_weather">Live Weather</string>
+    <string name="adv_maintain_title">Maintain Current Conditions</string>
+    <string name="adv_maintain_desc">Temperature and humidity are in the ideal range.</string>
+    <string name="adv_vent_desc">Ensure proper air circulation in the rearing room.</string>
+    <string name="adv_clean_title_rec">Clean Rearing Area</string>
+    <string name="adv_clean_desc_rec">Keep the rearing bed clean and free from moisture.</string>
+    <string name="adv_mulberry_title">Provide Quality Mulberry Leaves</string>
+    <string name="adv_mulberry_desc">Feed fresh and clean mulberry leaves on time.</string>
+    <string name="alert_high_temp">High Temperature</string>
+    <string name="alert_high_temp_desc">Temperature is higher than optimal. Monitor regularly.</string>
+    <string name="alert_high_hum">High Humidity</string>
+    <string name="alert_high_hum_desc">Increase ventilation to prevent disease spread.</string>
+    <string name="action_monitor">Monitor</string>
+    <string name="action_take_action">Action</string>
+    <string name="heat_detected_advice">Heat detected. Ensure proper ventilation and water supply.</string>
+    <string name="cool_weather_advice">Cool weather. Keep the rearing room warm.</string>
+    <string name="optimal_conditions_advice">Conditions are optimal for silkworms. Keep it up!</string>
+
+    <!-- Harvest Timer -->
+    <string name="active_batch">Active Batch</string>
+    <string name="view_details">View Details</string>
+    <string name="current_instar">Current Instar</string>
+    <string name="est_harvest">Est. Harvest</string>
+    <string name="days_left">Days Left</string>
+    <string name="timeline">Timeline</string>
+    <string name="key_tips">Key Tips</string>
+    <string name="harvest_alert">Harvest Alert</string>
+    <string name="harvest_alert_desc">Notify 2 days before.</string>
+    <string name="harvest_info_footer">Harvest time is important for better yield.</string>
+    <string name="day_x_of_y">Day %1$d of %2$d</string>
+    <string name="no_active_batch_tracking">No active batch tracking</string>
+    <string name="start_new_batch">Start a new batch</string>
+
+    <!-- Climate Trends -->
+    <string name="climate_analysis">Climate Analysis</string>
+    <string name="track_farm_env">Track your farm environment stability</string>
+    <string name="daily_trend">Daily Trend</string>
+    <string name="weekly_overview">Weekly Overview</string>
+    <string name="climate_stability">Climate Stability</string>
+    <string name="env_stable_ideal">Your farm environment is very stable. Ideal for silk growth.</string>
+    <string name="recent_logs">Recent Logs</string>
+    <string name="ai_smart_tip">AI Smart Tip</string>
+    <string name="rising_hum_tip">Humidity is rising at night. Consider increasing ventilation to prevent fungal growth.</string>
+
+    <!-- Alert Details -->
+    <string name="high_temp_alert">High Temperature Alert</string>
+    <string name="high_temp_subtitle">Current room temperature has exceeded the ideal threshold for the 4th instar stage. Immediate action is required to prevent heat stress.</string>
+    <string name="low_hum_warning">Low Humidity Warning</string>
+    <string name="low_hum_subtitle">Humidity levels are below the recommended range. Dry air can lead to leaf withering and poor larval growth.</string>
+    <string name="vent_reminder">Ventilation Reminder</string>
+    <string name="vent_subtitle">Regular air exchange is necessary to remove stale air and CO2 build-up in the rearing room.</string>
+    <string name="feeding_reminder_title">Feeding Reminder</string>
+    <string name="feeding_subtitle">It\'s time for the morning feeding session. Ensure leaves are fresh and of high quality.</string>
+    <string name="batch_progress_title">Batch Progress Update</string>
+    <string name="batch_progress_subtitle">Congratulations! Your active batch has successfully transitioned to the 4th instar stage.</string>
+    <string name="conditions_normal">Conditions Normal</string>
+    <string name="conditions_normal_subtitle">The rearing environment is currently within optimal parameters for healthy silk production.</string>
+    <string name="climate_data">Climate Data</string>
+    <string name="ideal_range">Ideal Range</string>
+    <string name="status_label">Status</string>
+    <string name="critical_overheat">Critical Overheat</string>
+    <string name="log_corrective">Log Corrective Action</string>
+    <string name="update_hum">Update Humidity</string>
+    <string name="mark_as_done">Mark as Done</string>
+    <string name="log_feeding">Log Feeding Session</string>
+    <string name="view_full_timeline">View Full Timeline</string>
+    <string name="check_trends">Check Trends</string>
+    <string name="feeding_guide">Feeding Guide</string>
+    <string name="matured_leaves">Matured Leaves</string>
+    <string name="quantity">Quantity</string>
+    <string name="current_progress">Current Progress</string>
+    <string name="days_since_hatch">Days Since Hatch</string>
+    <string name="next_milestone">Next Milestone</string>
+    <string name="env_summary">Environment Summary</string>
+
+    <!-- Detailed Advice -->
+    <string name="expert_guidance">Expert Guidance</string>
+    <string name="actionable_steps">Actionable Steps</string>
+    <string name="qa_note">Following this guidance significantly improves cocoon weight and quality.</string>
+
+    <string name="adv_vent_title">Airflow &amp; Ventilation</string>
+    <string name="adv_vent_tagline">Keep the rearing room fresh</string>
+    <string name="adv_vent_content">Silkworms are highly sensitive to stagnant air. Proper ventilation ensures removal of excess CO2 and moisture, which are primary causes of Muscardine and other fungal diseases.</string>
+    <string name="adv_vent_tip1">Open windows during the day for cross-ventilation.</string>
+    <string name="adv_vent_tip2">Use fans if the air feels humid or heavy.</string>
+    <string name="adv_vent_tip3">Avoid direct strong drafts on the silkworms.</string>
+    <string name="adv_vent_tip4">Ensure ventilation is higher during late-age instars.</string>
+
+    <string name="adv_clean_title">Hygiene &amp; Cleaning</string>
+    <string name="adv_clean_tagline">Maintain a disease-free shed</string>
+    <string name="adv_clean_content">Regular bed cleaning removes waste and uneaten leaves that rot and attract pathogens. A clean bed is essential for the healthy growth of the worms during their moulting stages.</string>
+    <string name="adv_clean_tip1">Clean the rearing bed after every moult completed.</string>
+    <string name="adv_clean_tip2">Wash hands with sanitizer before any handling.</string>
+    <string name="adv_clean_tip3">Dispose of waste far away from the rearing shed.</string>
+    <string name="adv_clean_tip4">Sprinkle lime powder to keep the bed dry after cleaning.</string>
+
+    <string name="adv_feed_title">Feeding Management</string>
+    <string name="adv_feed_tagline">Nutritious leaves for better silk</string>
+    <string name="adv_feed_content">The growth of silkworms is directly proportional to the quality of mulberry leaves. Moisture content in leaves is vital for early instars, while maturity is needed for later stages.</string>
+    <string name="adv_feed_tip1">Harvest leaves in early morning or late evening.</string>
+    <string name="adv_feed_tip2">Store leaves under wet gunny bags to maintain moisture.</string>
+    <string name="adv_feed_tip3">Never feed wilted, yellow or diseased leaves.</string>
+    <string name="adv_feed_tip4">Regular feeding intervals promote uniform growth.</string>
+
+    <string name="adv_ideal_title">Optimal Environment</string>
+    <string name="adv_ideal_tagline">Ideal conditions for silkworms</string>
+    <string name="adv_ideal_content">Maintaining optimal temperature and humidity is the foundation of successful sericulture. Silkworms thrive when their environment mimics natural spring conditions.</string>
+    <string name="adv_ideal_tip1">Monitor temperature multiple times daily.</string>
+    <string name="adv_ideal_tip2">Keep humidity within the stage-specific range.</string>
+    <string name="adv_ideal_tip3">Avoid sudden environmental fluctuations.</string>
+    <string name="adv_ideal_tip4">Ensure proper air quality in the rearing house.</string>
+
+    <!-- Location Support -->
+    <string name="use_current_location">Use Current Location</string>
+    <string name="fetching_location">Fetching your location…</string>
+    <string name="location_success">Location fetched successfully</string>
+    <string name="location_error">Failed to fetch location</string>
+    <string name="permission_denied">Location permission denied</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="village">Village</string>
+    <string name="district">District</string>
+    <string name="state">State</string>
+    <string name="pincode">Pincode</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="english">English</string>
+    <string name="kannada">Kannada</string>
+    <string name="language_settings_title">Select Language</string>
+    <string name="update_password">Update Password</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="karnataka">Karnataka</string>
+    <string name="placeholder_title">Feature: %1$s</string>
+    <string name="placeholder_desc">The %1$s feature will be available in the next update.</string>
+    <string name="back">Back</string>
+    <string name="menu">Menu</string>
+    <string name="loading">Loading...</string>
+
+    <!-- Location Request Card -->
+    <string name="location_rationale_title">Enable Device Location</string>
+    <string name="location_rationale_desc">To provide you with local weather updates and auto-fill your farm address, we need access to your device location.</string>
+    <string name="allow_location">Allow Access</string>
+    <string name="maybe_later">Maybe Later</string>
+
+    <!-- Climate Entry -->
+    <string name="log_schedule">Log Schedule</string>
+    <string name="date_label">Date</string>
+    <string name="time_label">Time</string>
+    <string name="env_monitoring">Environment Monitoring</string>
+    <string name="condition_analysis">Condition Analysis</string>
+    <string name="cond_optimal">Conditions: Optimal</string>
+    <string name="cond_optimal_desc">Ideal for the current stage.</string>
+    <string name="cond_high_risk">Conditions: High Risk</string>
+    <string name="cond_high_risk_desc">Excessive heat/moisture!</string>
+    <string name="cond_moderate">Conditions: Moderate</string>
+    <string name="cond_moderate_desc">Adjustments may improve yield.</string>
+    <string name="set_time">Set Time</string>
+
+    <!-- Breeds & Types -->
+    <string name="bivoltine">Bivoltine</string>
+    <string name="multivoltine">Multivoltine</string>
+    <string name="cross_breed">Cross Breed</string>
+    <string name="v1">V1</string>
+    <string name="s36">S36</string>
+    <string name="g4">G4</string>
+    <string name="local">Local</string>
+    <string name="instar_1">1st Instar</string>
+    <string name="instar_2">2nd Instar</string>
+    <string name="instar_3">3rd Instar</string>
+    <string name="instar_4">4th Instar</string>
+    <string name="instar_5">5th Instar</string>
+    <string name="cocooning">Cocooning</string>
+
+    <!-- Export & Sync -->
+    <string name="complete_data">Complete Data</string>
+    <string name="current_batch_only">Current Batch Only</string>
+    <string name="climate_logs_only">Climate Logs Only</string>
+    <string name="pdf_doc">PDF Document</string>
+    <string name="excel_sheet">Excel Spreadsheet (.xlsx)</string>
+    <string name="csv_file">CSV File</string>
+
+    <!-- FAQ & Help -->
+    <string name="faq_q1">How to log daily temperature?</string>
+    <string name="faq_a1">Go to Climate Entry on the home dashboard and enter the current reading.</string>
+    <string name="faq_q2">Can I manage multiple batches?</string>
+    <string name="faq_a2">Yes, use the Add Batch section to start a new lifecycle alongside existing ones.</string>
+    <string name="faq_q3">What if my survival rate drops?</string>
+    <string name="faq_a3">Check the Smart Advice section for AI-driven troubleshooting steps.</string>
+
+    <!-- Legal -->
+    <string name="welcome_legal">Welcome to Namma Reshme. By using this application, you agree to the following terms and conditions:</string>
+    <string name="legal_s1_title">1. Acceptance of Terms</string>
+    <string name="legal_s1_body">By accessing or using the Namma Reshme mobile application, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.</string>
+    <string name="legal_s2_title">2. User Accounts</string>
+    <string name="legal_s2_body">You are responsible for maintaining the confidentiality of your account credentials. All activities under your account are your responsibility.</string>
+    <string name="legal_s3_title">3. Data Accuracy</string>
+    <string name="legal_s3_body">Namma Reshme provides advice based on the data you enter. While we strive for accuracy, we are not liable for any losses resulting from decisions based on app recommendations.</string>
+    <string name="legal_s4_title">4. Intellectual Property</string>
+    <string name="legal_s4_body">The content, logo, and software of Namma Reshme are protected by copyright laws and belong to SilkTech Solutions.</string>
+    <string name="legal_s5_title">5. Modifications</string>
+    <string name="legal_s5_body">We reserve the right to modify these terms at any time. Continued use of the app implies acceptance of updated terms.</string>
+
+    <string name="privacy_welcome">Your privacy is important to us. This policy explains how we handle your data:</string>
+    <string name="priv_s1_title">Data Collection</string>
+    <string name="priv_s1_body">We collect personal details like name, phone number, and location to provide personalized farming advice and weather updates.</string>
+    <string name="priv_s2_title">Location Access</string>
+    <string name="priv_s2_body">Background and foreground location is used to fetch local weather and sync your farm coordinates for smart alerts.</string>
+    <string name="priv_s3_title">Data Sharing</string>
+    <string name="priv_s3_body">We do not sell your personal data to third parties. Data may be shared with government agricultural departments for verified subsidy programs if you opt-in.</string>
+    <string name="priv_s4_title">Security</string>
+    <string name="priv_s4_body">We implement industry-standard security measures to protect your information from unauthorized access.</string>
+
+    <!-- Alerts Specific -->
+    <string name="alert_high_temp_title">High Temperature Alert</string>
+    <string name="alert_high_temp_desc_long">Temperature is above the ideal range.</string>
+    <string name="alert_low_hum_title">Low Humidity Warning</string>
+    <string name="alert_low_hum_desc_long">Humidity is below the recommended level.</string>
+    <string name="alert_vent_title">Ventilation Reminder</string>
+    <string name="alert_vent_desc_long">Ensure proper air circulation in the room.</string>
+    <string name="alert_feeding_title">Feeding Reminder</string>
+    <string name="alert_feeding_desc_long">Provide fresh and clean mulberry leaves.</string>
+    <string name="alert_cond_normal_title">Conditions Normal</string>
+    <string name="alert_cond_normal_desc_long">Temperature and humidity are in ideal range.</string>
+    <string name="alert_batch_prog_title">Batch Progress Update</string>
+    <string name="alert_batch_prog_desc_long">Batch %1$s reached %2$s.</string>
+
+    <string name="ideal_range_format">Ideal: %1$s - %2$s</string>
+    <string name="current_val_format">Current: %1$s</string>
+
+    <!-- Landing -->
+    <string name="instar_based_advice">Instar Based\nAdvice</string>
+    <string name="voice_guidance">Voice\nGuidance</string>
+    <string name="made_for_silk_farmers">Made for Silk Farmers</string>
+    <string name="slogan_text">Empowering Farmers,\nGrowing Silk, Building Future.</string>
+    <string name="climate_monitoring">Climate\nMonitoring</string>
+    <string name="smart_alerts_feat">Smart Advice\nAlerts</string>
+
+    <!-- Batch Details -->
+    <string name="batch_details_title">Batch Details</string>
+    <string name="batch_not_found">Batch not found</string>
+    <string name="climate_logs_summary">Climate Logs Summary</string>
+    <string name="notes_observations">Notes &amp; Observations</string>
+    <string name="tbd">TBD</string>
+    <string name="current_stage_label">Current Stage</string>
+    <string name="avg_temp">Avg Temp</string>
+    <string name="avg_humidity">Avg Humid</string>
+    <string name="total_logs_format">Total Logs: %1$d. Latest entry on %2$s at %3$s.</string>
+
+    <!-- Detailed Tips -->
+    <string name="sprinkle_water_tip">Sprinkle water on the floor if necessary.</string>
+    <string name="hang_bags_tip">Hang wet gunny bags around the rearing area.</string>
+    <string name="vent_desc_long">Proper ventilation ensures healthy growth and prevents the spread of diseases among silkworms.</string>
+    <string name="action_plan">Action Plan</string>
+    <string name="run_fans_tip">Run exhaust fans for at least 30 minutes.</string>
+    <string name="leaf_type_label">Leaf Type</string>
+    <string name="kg_approx_format">%1$.1f kg approx.</string>
+    <string name="days_count_format">%1$d Days</string>
+    <string name="next_stage_in_format">%1$s in %2$d days</string>
+    <string name="good_status">Good</string>
+    <string name="avg_format">Avg: %1$d</string>
+    <string name="unit_ms">%1$s m/s</string>
+    <string name="unit_celsius">%1$s°C</string>
+    <string name="unit_percent">%1$s%%</string>
+
+    <!-- Worker Notifications -->
+    <string name="notif_harvest_title">Harvest Reminder</string>
+    <string name="notif_harvest_msg">Batch %1$s is approaching harvest in %2$d days!</string>
+    <string name="notif_climate_temp_title">Climate Warning: High Temp</string>
+    <string name="notif_climate_temp_msg">Temperature in rearing room is %1$.1f°C. Increase ventilation!</string>
+    <string name="notif_climate_hum_title">Climate Warning: Low Humidity</string>
+    <string name="notif_climate_hum_msg">Humidity is %1$.1f%%. Dry air may affect growth.</string>
+    <string name="notif_permission_denied">Notification permission denied. You won\'t receive alerts.</string>
+
+    <!-- Weather States -->
+    <string name="weather_clear">Clear</string>
+    <string name="weather_clouds">Clouds</string>
+    <string name="weather_rain">Rain</string>
+    <string name="weather_drizzle">Drizzle</string>
+    <string name="weather_thunderstorm">Thunderstorm</string>
+    <string name="weather_snow">Snow</string>
+    <string name="weather_mist">Mist</string>
+
+</resources>

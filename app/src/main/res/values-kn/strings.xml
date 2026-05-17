@@ -1,0 +1,516 @@
+<resources>
+    <string name="app_name">ನಮ್ಮ ರೇಷ್ಮೆ</string>
+    <string name="app_title">ರೇಷ್ಮೆ-ನಮ್ಮ ಹೆಮ್ಮೆ</string>
+    <string name="app_subtitle">ಸ್ಮಾರ್ಟ್ ರೇಷ್ಮೆ ಕೃಷಿ ಸಹಾಯಕ</string>
+
+    <!-- Dashboard -->
+    <string name="good_morning">ಶುಭೋದಯ, %1$s! ☀️</string>
+    <string name="good_afternoon">ಶುಭ ಮಧ್ಯಾಹ್ನ, %1$s! ☀️</string>
+    <string name="good_evening">ಶುಭ ಸಂಜೆ, %1$s! 🌙</string>
+    <string name="productive_day">ಇಂದಿನ ರೇಷ್ಮೆ ಕೃಷಿ ದಿನವನ್ನು ಉತ್ಪಾದಕವಾಗಿಸೋಣ.</string>
+    <string name="current_climate">ಪ್ರಸ್ತುತ ಹವಾಮಾನ</string>
+    <string name="log_climate">ಹವಾಮಾನ ದಾಖಲಿಸಿ</string>
+    <string name="add_batch">ಬ್ಯಾಚ್ ಸೇರಿಸಿ</string>
+    <string name="add_batch_desc">ಹೊಸ ರೇಷ್ಮೆ ಹುಳು ಬ್ಯಾಚ್ ವಿವರಗಳನ್ನು ಸೇರಿಸಿ</string>
+    <string name="climate_entry">ಹವಾಮಾನ ದಾಖಲೆ</string>
+    <string name="climate_entry_desc">ತಾಪಮಾನ ಮತ್ತು ತೇವಾಂಶವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="smart_advice">ಸ್ಮಾರ್ಟ್ ಸಲಹೆ</string>
+    <string name="smart_advice_desc">AI ಆಧಾರಿತ ಸಲಹೆ ಮತ್ತು ಎಚ್ಚರಿಕೆಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+    <string name="harvest_timer">ಕೊಯ್ಲು ಟೈಮರ್</string>
+    <string name="harvest_timer_desc">ದಿನಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ ಮತ್ತು ಜ್ಞಾಪನೆಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+    <string name="batch_history">ಬ್ಯಾಚ್ ಇತಿಹಾಸ</string>
+    <string name="batch_history_desc">ಹಳೆಯ ಬ್ಯಾಚ್‌ಗಳು ಮತ್ತು ದಾಖಲೆಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="alerts">ಎಚ್ಚರಿಕೆಗಳು</string>
+    <string name="alerts_desc">ಪ್ರಮುಖ ಎಚ್ಚರಿಕೆಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="all_systems_normal">ಎಲ್ಲಾ ವ್ಯವಸ್ಥೆಗಳು ಸಹಜವಾಗಿವೆ</string>
+    <string name="monitoring_desc">ಫಲಿತಾಂಶಗಳಿಗಾಗಿ ಮೇಲ್ವಿಚಾರಣೆಯನ್ನು ಮುಂದುವರಿಸಿ.</string>
+    <string name="view_all_alerts">ಎಲ್ಲಾ ಎಚ್ಚರಿಕೆಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="system_healthy">ವ್ಯವಸ್ಥೆ ಸುಸ್ಥಿತಿಯಲ್ಲಿದೆ</string>
+    <string name="all_parameters_normal">ಎಲ್ಲಾ ನಿಯತಾಂಕಗಳು ಸಾಮಾನ್ಯ ವ್ಯಾಪ್ತಿಯಲ್ಲಿವೆ</string>
+    <string name="action_required_status">ಕ್ರಮ ಅಗತ್ಯವಿದೆ</string>
+    <string name="climate_outside_range">ಹವಾಮಾನವು ಸೂಕ್ತ ವ್ಯಾಪ್ತಿಯಿಂದ ಹೊರಗಿದೆ</string>
+    <string name="unknown_location">ತಿಳಿಯದ ಸ್ಥಳ</string>
+    <string name="no_weather_data_warning">ಹವಾಮಾನ ಡೇಟಾ ಇಲ್ಲ. ದಯವಿಟ್ಟು ಸ್ಥಳವನ್ನು ಹೊಂದಿಸಿ.</string>
+    <string name="farmer_default_name">ರೈತರು</string>
+
+    <!-- Navigation -->
+    <string name="home">ಮನೆ</string>
+    <string name="batches">ಬ್ಯಾಚ್‌ಗಳು</string>
+    <string name="climate">ಹವಾಮಾನ</string>
+    <string name="profile">ಪ್ರೊಫೈಲ್</string>
+    <string name="notifications">ಅಧಿಸೂಚನೆಗಳು</string>
+
+    <!-- Auth -->
+    <string name="welcome_back">ಮತ್ತೆ ಸುಸ್ವಾಗತ!</string>
+    <string name="create_account">ಖಾತೆಯನ್ನು ರಚಿಸಿ</string>
+    <string name="login_continue">ಮುಂದುವರಿಯಲು ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="signup_start">ಕೃಷಿ ಪ್ರಾರಂಭಿಸಲು ಸೈನ್ ಅಪ್ ಮಾಡಿ</string>
+    <string name="login">ಲಾಗಿನ್</string>
+    <string name="register">ನೋಂದಾಯಿಸಿ</string>
+    <string name="enter_name">ನಿಮ್ಮ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enter_phone">ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enter_password">ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ</string>
+    <string name="forgot_password_q">ಪಾಸ್‌ವರ್ಡ್ ಮರೆತಿರುವಿರಾ?</string>
+    <string name="create_new_account">ಹೊಸ ಖಾತೆಯನ್ನು ರಚಿಸಿ</string>
+    <string name="back_to_login">ಲಾಗಿನ್‌ಗೆ ಹಿಂತಿರುಗಿ</string>
+    <string name="auth_promo_text">ನಿಮ್ಮ ಭಾಷೆಯಲ್ಲಿ ಸ್ಮಾರ್ಟ್ ಸಲಹೆ, ಎಚ್ಚರಿಕೆಗಳು ಮತ್ತು ರೇಷ್ಮೆ ಕೃಷಿ ಮಾರ್ಗದರ್ಶನ ಪಡೆಯಿರಿ!</string>
+    <string name="or_text"> ಅಥವಾ </string>
+    <string name="error_fill_fields">ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಕ್ಷೇತ್ರಗಳನ್ನು ಸರಿಯಾಗಿ ಭರ್ತಿ ಮಾಡಿ</string>
+    <string name="registration_success_msg">ನೋಂದಣಿ ಯಶಸ್ವಿಯಾಗಿದೆ! ದಯವಿಟ್ಟು ಲಾಗಿನ್ ಮಾಡಿ.</string>
+    <string name="google_sign_in_failed">ಗೂಗಲ್ ಲಾಗಿನ್ ವಿಫಲವಾಗಿದೆ: %1$s</string>
+    <string name="continue_with_google">ಗೂಗಲ್ ಮೂಲಕ ಮುಂದುವರಿಸಿ</string>
+    <string name="enter_phone_reset_desc">ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸಲು ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+
+    <!-- Profile -->
+    <string name="my_profile">ನನ್ನ ಪ್ರೊಫೈಲ್</string>
+    <string name="manage_account_pref">ನಿಮ್ಮ ಖಾತೆ ಮತ್ತು ಆದ್ಯತೆಗಳನ್ನು ನಿರ್ವಹಿಸಿ</string>
+    <string name="logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="logout_confirm">ನಿಮ್ಮ ಖಾತೆಯಿಂದ ಲಾಗ್ ಔಟ್ ಮಾಡಲು ನೀವು ಖಚಿತವಾಗಿರುವಿರಾ?</string>
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="verified_farmer">ಪರಿಶೀಲಿಸಿದ ರೈತ</string>
+    <string name="farm_overview">ಫಾರ್ಮ್ ಅವಲೋಕನ</string>
+    <string name="view_farm_details">ಫಾರ್ಮ್ ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="active_batches">ಸಕ್ರಿಯ ಬ್ಯಾಚ್‌ಗಳು</string>
+    <string name="total_batches">ಒಟ್ಟು ಬ್ಯಾಚ್‌ಗಳು</string>
+    <string name="total_cocoons">ಒಟ್ಟು ಗೂಡುಗಳು</string>
+    <string name="avg_survival_rate">ಸರಾಸರಿ ಬದುಕುಳಿಯುವ ದರ</string>
+    <string name="account_settings">ಖಾತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="app_settings">ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="personal_info">ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ</string>
+    <string name="personal_info_desc">ನಿಮ್ಮ ಹೆಸರು, ಸಂಪರ್ಕ ಮತ್ತು ವಿಳಾಸವನ್ನು ನವೀಕರಿಸಿ</string>
+    <string name="change_password">ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿ</string>
+    <string name="change_password_desc">ನಿಮ್ಮ ಖಾತೆಯ ಪಾಸ್‌ವರ್ಡ್ ನವೀಕರಿಸಿ</string>
+    <string name="language">ಭಾಷೆ</string>
+    <string name="language_desc">ನಿಮ್ಮ ಆದ್ಯತೆಯ ಭಾಷೆಯನ್ನು ಆರಿಸಿ</string>
+    <string name="notification_settings">ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="notification_settings_desc">ನಿಮ್ಮ ಅಧಿಸೂಚನೆ ಆದ್ಯತೆಗಳನ್ನು ನಿರ್ವಹಿಸಿ</string>
+    <string name="preferences">ಘಟಕಗಳು ಮತ್ತು ಆದ್ಯತೆಗಳು</string>
+    <string name="preferences_desc">ತಾಪಮಾನ ಘಟಕಗಳು ಮತ್ತು ಇತರ ಆದ್ಯತೆಗಳನ್ನು ಹೊಂದಿಸಿ</string>
+    <string name="data_sync">ಡೇಟಾ ಸಿಂಕ್</string>
+    <string name="last_synced">ಕೊನೆಯದಾಗಿ ಸಿಂಕ್ ಮಾಡಲಾಗಿದೆ: ಇಂದು, 08:30 AM</string>
+    <string name="backup_restore">ಬ್ಯಾಕಪ್ ಮತ್ತು ಮರುಸ್ಥಾಪನೆ</string>
+    <string name="backup_desc">ಬ್ಯಾಕಪ್ ಮಾಡಿ</string>
+    <string name="export_data">ನನ್ನ ಡೇಟಾವನ್ನು ರಫ್ತು ಮಾಡಿ</string>
+    <string name="export_desc">ನಿಮ್ಮ ಫಾರ್ಮ್ ಡೇಟಾವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="help_support">ಸಹಾಯ ಮತ್ತು ಬೆಂಬಲ</string>
+    <string name="help_desc">ಸಹಾಯ ಪಡೆಯಿರಿ ಮತ್ತು ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="about_app">ಅಪ್ಲಿಕೇಶನ್ ಬಗ್ಗೆ</string>
+    <string name="version_text">ಆವೃತ್ತಿ 1.0.0</string>
+    <string name="need_help">ಸಹಾಯ ಬೇಕೆ?</string>
+    <string name="help_q_desc">ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳಿಗೆ ನಾವು ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲು ಇಲ್ಲಿದ್ದೇವೆ.</string>
+    <string name="contact_support">ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="support_email">support@nammareshme.com</string>
+    <string name="support_phone">+91 98765 43210</string>
+    <string name="support_desc">ನಮ್ಮ ತಜ್ಞರು ನಿಮ್ಮ ರೇಷ್ಮೆ ಕೃಷಿ ಅಗತ್ಯಗಳಿಗೆ ಸಹಾಯ ಮಾಡಲು ಸೋಮವಾರದಿಂದ ಶನಿವಾರದವರೆಗೆ ಬೆಳಿಗ್ಗೆ 9 ರಿಂದ ಸಂಜೆ 6 ರವರೆಗೆ ಲಭ್ಯವಿರುತ್ತಾರೆ.</string>
+    <string name="profile_updated">ಪ್ರೊಫೈಲ್ ನವೀಕರಿಸಲಾಗಿದೆ</string>
+    <string name="use_current_loc_desc">ಪ್ರಸ್ತುತ ಸ್ಥಳ ಬಳಸಿ</string>
+
+    <!-- Profile Details -->
+    <string name="primary_details">ಪ್ರಾಥಮಿಕ ವಿವರಗಳು</string>
+    <string name="email_address">ಇಮೇಲ್ ವಿಳಾಸ</string>
+    <string name="farm_name">ಫಾರ್ಮ್ ಹೆಸರು</string>
+    <string name="address_location">ವಿಳಾಸ / ಸ್ಥಳ</string>
+    <string name="security_update">ಭದ್ರತಾ ನವೀಕರಣ</string>
+    <string name="current_password">ಪ್ರಸ್ತುತ ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="new_password">ಹೊಸ ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="confirm_new_password">ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಖಚಿತಪಡಿಸಿ</string>
+    <string name="password_hint">ಪಾಸ್‌ವರ್ಡ್ ಕನಿಷ್ಠ 8 ಅಕ್ಷರಗಳಿರಬೇಕು ಮತ್ತು ವಿಶೇಷ ಅಕ್ಷರಗಳನ್ನು ಒಳಗೊಂಡಿರಬೇಕು.</string>
+    <string name="alert_preferences">ಎಚ್ಚರಿಕೆ ಆದ್ಯತೆಗಳು</string>
+    <string name="batch_progress_alerts">ಬ್ಯಾಚ್ ಪ್ರಗತಿ ಎಚ್ಚರಿಕೆಗಳು</string>
+    <string name="batch_progress_desc">ಹಂತದ ಬದಲಾವಣೆಗಳ ಬಗ್ಗೆ ಸೂಚನೆ ಪಡೆಯಿರಿ</string>
+    <string name="climate_threshold_alerts">ಹವಾಮಾನ ಮಿತಿ ಎಚ್ಚರಿಕೆಗಳು</string>
+    <string name="climate_threshold_desc">ತಾಪಮಾನ/ತೇವಾಂಶ ಬದಲಾವಣೆಗಳ ಎಚ್ಚರಿಕೆಗಳು</string>
+    <string name="feeding_reminders">ಆಹಾರದ ಜ್ಞಾಪನೆಗಳು</string>
+    <string name="feeding_desc">ದೈನಂದಿನ ವೇಳಾಪಟ್ಟಿಯ ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="system_notifications">ವ್ಯವಸ್ಥೆಯ ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="system_desc">ಅಪ್ಲಿಕೇಶನ್ ನವೀಕರಣಗಳು ಮತ್ತು ಪ್ರಕಟಣೆಗಳು</string>
+    <string name="measurement_units">ಅಳತೆ ಘಟಕಗಳು</string>
+    <string name="temp_unit">ತಾಪಮಾನ ಘಟಕ</string>
+    <string name="weight_unit">ತೂಕದ ಘಟಕ</string>
+    <string name="display_preferences">ಪ್ರದರ್ಶನ ಆದ್ಯತೆಗಳು</string>
+    <string name="dark_mode">ಡಾರ್ಕ್ ಮೋಡ್</string>
+    <string name="dark_mode_desc">ರಾತ್ರಿ ವೀಕ್ಷಣೆಗಾಗಿ ಗಾಢ ಬಣ್ಣಗಳನ್ನು ಬಳಸಿ</string>
+    <string name="cloud_sync">ಕ್ಲೌಡ್ ಸಿಂಕ್ರೊನೈಸೇಶನ್</string>
+    <string name="data_up_to_date">ಎಲ್ಲಾ ಡೇಟಾ ನವೀಕೃತವಾಗಿದೆ</string>
+    <string name="auto_sync">ಸ್ವಯಂಚಾಲಿತ ಸಿಂಕ್</string>
+    <string name="auto_sync_desc">ವೈ-ಫೈ ಮೂಲಕ ಡೇಟಾವನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಿಂಕ್ ಮಾಡಿ</string>
+    <string name="sync_now">ಈಗ ಸಿಂಕ್ ಮಾಡಿ</string>
+    <string name="manage_backups">ಡೇಟಾ ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸಿ</string>
+    <string name="create_backup">ಹೊಸ ಬ್ಯಾಕಪ್ ರಚಿಸಿ</string>
+    <string name="previous_backups">ಹಿಂದಿನ ಬ್ಯಾಕಪ್‌ಗಳು</string>
+    <string name="export_config">ರಫ್ತು ಕಾನ್ಫಿಗರೇಶನ್</string>
+    <string name="data_range">ಡೇಟಾ ಶ್ರೇಣಿ</string>
+    <string name="file_format">ಫೈಲ್ ಫಾರ್ಮ್ಯಾಟ್</string>
+    <string name="faqs">ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು</string>
+    <string name="contact_channels">ಸಂಪರ್ಕ ಮಾರ್ಗಗಳು</string>
+    <string name="chat_support">ಬೆಂಬಲದೊಂದಿಗೆ ಚಾಟ್ ಮಾಡಿ</string>
+    <string name="email_support">ಬೆಂಬಲ ತಂಡಕ್ಕೆ ಇಮೇಲ್ ಮಾಡಿ</string>
+    <string name="privacy_policy">ಗೌಪ್ಯತಾ ನೀತಿ</string>
+    <string name="terms_service">ಸೇವಾ ನಿಯಮಗಳು</string>
+    <string name="licenses">ಪರವಾನಗಿಗಳು</string>
+    <string name="developed_by">ಸಿಲ್ಕ್‌ಟೆಕ್ ಸೊಲ್ಯೂಷನ್ಸ್‌ನಿಂದ ಅಭಿವೃದ್ಧಿಪಡಿಸಲಾಗಿದೆ</string>
+    <string name="farm_infra">ಫಾರ್ಮ್ ಮೂಲಸೌಕರ್ಯ</string>
+    <string name="rearing_house_type">ಸಾಕಣೆ ಮನೆ ವಿಧ</string>
+    <string name="total_floor_area">ಒಟ್ಟು ನೆಲದ ವಿಸ್ತೀರ್ಣ</string>
+    <string name="shelf_capacity">ಶೆಲ್ಫ್ ಸಾಮರ್ಥ್ಯ</string>
+    <string name="mulberry_variety">ಹಿಪ್ಪುನೇರಳೆ ತಳಿ</string>
+    <string name="water_irrigation">ನೀರು ಮತ್ತು ನೀರಾವರಿ</string>
+    <string name="water_source">ನೀರಿನ ಮೂಲ</string>
+    <string name="irrigation_type">ನೀರಾವರಿ ವಿಧ</string>
+    <string name="lat_lon_format">ಅಕ್ಷಾಂಶ: %1$.4f, ರೇಖಾಂಶ: %2$.4f</string>
+    <string name="celsius">ಸೆಲ್ಸಿಯಸ್ (°C)</string>
+    <string name="fahrenheit">ಫ್ಯಾರನ್ ಹೀಟ್ (°F)</string>
+    <string name="kilograms">ಕಿಲೋಗ್ರಾಂಗಳು (kg)</string>
+    <string name="grams">ಗ್ರಾಂಗಳು (g)</string>
+    <string name="pounds">ಪೌಂಡ್‌ಗಳು (lb)</string>
+    <string name="controlled_env">ನಿಯಂತ್ರಿತ ಪರಿಸರ</string>
+    <string name="sq_ft_format">%1$s ಚದರ ಅಡಿ.</string>
+    <string name="trays_format">%1$s ಟ್ರೇಗಳು</string>
+    <string name="variety_format">%1$s ತಳಿ</string>
+    <string name="borewell">ಕೊಳವೆ ಬಾವಿ</string>
+    <string name="drip_system">ಹನಿ ನೀರಾವರಿ</string>
+    <string name="backup_file_detail">%1$s • %2$s</string>
+
+    <!-- Forms & History -->
+    <string name="batch_name_label">1. ಬ್ಯಾಚ್ ಹೆಸರು *</string>
+    <string name="batch_name_placeholder">ಬ್ಯಾಚ್ ಹೆಸರನ್ನು ನಮೂದಿಸಿ (ಉದಾ: MYS-250515-03)</string>
+    <string name="batch_name_helper">ನಿಮ್ಮ ಬ್ಯಾಚ್ ಅನ್ನು ಸುಲಭವಾಗಿ ಗುರುತಿಸಲು ಅನನ್ಯ ಹೆಸರನ್ನು ಬಳಸಿ</string>
+    <string name="breed_type_label">2. ತಳಿ ವಿಧ *</string>
+    <string name="breed_type_placeholder">ತಳಿ ವಿಧವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="mulberry_type_label">3. ಹಿಪ್ಪುನೇರಳೆ ವಿಧ *</string>
+    <string name="mulberry_type_placeholder">ಹಿಪ್ಪುನೇರಳೆ ವಿಧವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="start_date_label">4. ಪ್ರಾರಂಭ ದಿನಾಂಕ *</string>
+    <string name="instar_stage_label">5. ಪ್ರಸ್ತುತ ಇನ್ಸ್ಟಾರ್ *</string>
+    <string name="instar_stage_placeholder">ಹಂತವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="notes_label">6. ಟಿಪ್ಪಣಿಗಳು (ಐಚ್ಛಿಕ)</string>
+    <string name="notes_placeholder">ಈ ಬ್ಯಾಚ್ ಬಗ್ಗೆ ಯಾವುದೇ ಟಿಪ್ಪಣಿಗಳನ್ನು ಸೇರಿಸಿ</string>
+    <string name="save_batch">ಬ್ಯಾಚ್ ಉಳಿಸಿ</string>
+    <string name="fill_required">ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಅಗತ್ಯ ಕ್ಷೇತ್ರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ</string>
+    <string name="save_success">ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ!</string>
+    <string name="tip_text">ಸಲಹೆ: ನಿಖರವಾದ ಮಾಹಿತಿ ಉತ್ತಮ ಹವಾಮಾನ ಟ್ರ್ಯಾಕಿಂಗ್‌ಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.</string>
+    <string name="confirm">ಖಚಿತಪಡಿಸಿ</string>
+    <string name="select">ಆಯ್ಕೆಮಾಡಿ</string>
+
+    <string name="temp_label">ತಾಪಮಾನ (°C)</string>
+    <string name="hum_label">ತೇವಾಂಶ (%)</string>
+    <string name="enter_temp">ತಾಪಮಾನ ನಮೂದಿಸಿ</string>
+    <string name="enter_hum">ತೇವಾಂಶ ನಮೂದಿಸಿ</string>
+    <string name="log_entry">ದಾಖಲೆ ಉಳಿಸಿ</string>
+
+    <string name="search_batches">ಬ್ಯಾಚ್‌ಗಳನ್ನು ಹುಡುಕಿ...</string>
+    <string name="filter">ಫಿಲ್ಟರ್</string>
+    <string name="all_tab">ಎಲ್ಲಾ</string>
+    <string name="completed_tab">ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="active_tab">ಸಕ್ರಿಯ</string>
+    <string name="cancelled_tab">ರದ್ದಾಗಿದೆ</string>
+    <string name="total_label">ಒಟ್ಟು</string>
+    <string name="done_label">ಮುಗಿದಿದೆ</string>
+    <string name="live_label">ನೇರ</string>
+    <string name="stopped_label">ನಿಲ್ಲಿಸಲಾಗಿದೆ</string>
+    <string name="breed_label">ತಳಿ:</string>
+    <string name="start_date_c">ಪ್ರಾರಂಭ ದಿನಾಂಕ:</string>
+    <string name="end_date_c">ಅಂತ್ಯ ದಿನಾಂಕ:</string>
+    <string name="stage_label">ಹಂತ:</string>
+    <string name="cancelled_on_c">ರದ್ದಾದ ದಿನಾಂಕ:</string>
+    <string name="batch_in_progress">ಪ್ರಗತಿಯಲ್ಲಿದೆ</string>
+    <string name="upcoming_label">ಮುಂಬರುವ</string>
+    <string name="no_batches_found">ಯಾವುದೇ ಬ್ಯಾಚ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="view_detailed_records_info">ಪ್ರತಿ ಬ್ಯಾಚ್‌ಗೆ ನೀವು ವಿವರವಾದ ದಾಖಲೆಗಳನ್ನು ವೀಕ್ಷಿಸಬಹುದು.</string>
+    <string name="total_days_label">ಒಟ್ಟು ದಿನಗಳು</string>
+
+    <!-- Alerts Screen -->
+    <string name="critical_label">ನಿರ್ಣಾಯಕ</string>
+    <string name="warning_label">ಎಚ್ಚರಿಕೆ</string>
+    <string name="info_label">ಮಾಹಿತಿ</string>
+    <string name="all_clear_label">ಎಲ್ಲಾ ಸರಿಯಾಗಿದೆ</string>
+    <string name="action_required">ಕ್ರಮ ಅಗತ್ಯವಿದೆ</string>
+    <string name="attention_label">ಗಮನ</string>
+    <string name="updates_label">ನವೀಕರಣಗಳು</string>
+    <string name="normal_label">ಸಾಮಾನ್ಯ</string>
+    <string name="view_history">ಅಧಿಸೂಚನೆ ಇತಿಹಾಸವನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="today">ಇಂದು</string>
+    <string name="yesterday">ನಿನ್ನೆ</string>
+
+    <!-- Smart Advice -->
+    <string name="temperature">ತಾಪಮಾನ</string>
+    <string name="humidity_label">ತೇವಾಂಶ</string>
+    <string name="updated_at">ನವೀಕರಿಸಲಾಗಿದೆ</string>
+    <string name="overall_status">ಒಟ್ಟಾರೆ ಸ್ಥಿತಿ</string>
+    <string name="recommendations">ಶಿಫಾರಸುಗಳು</string>
+    <string name="no_active_alerts">ಯಾವುದೇ ಸಕ್ರಿಯ ಎಚ್ಚರಿಕೆಗಳಿಲ್ಲ</string>
+    <string name="advice_footer">ಪ್ರಸ್ತುತ ಹವಾಮಾನ ಮತ್ತು ಉತ್ತಮ ಅಭ್ಯಾಸಗಳ ಆಧಾರದ ಮೇಲೆ ಸಲಹೆಗಳನ್ನು ನೀಡಲಾಗಿದೆ.</string>
+    <string name="optimal">ಉತ್ತಮ</string>
+    <string name="fair">ಪರವಾಗಿಲ್ಲ</string>
+    <string name="critical">ನಿರ್ಣಾಯಕ</string>
+    <string name="good">ಒಳ್ಳೆಯದು</string>
+    <string name="just_now">ಈಗ ತಾನೇ</string>
+    <string name="live_weather">ನೇರ ಹವಾಮಾನ</string>
+    <string name="adv_maintain_title">ಪ್ರಸ್ತುತ ಸ್ಥಿತಿಗಳನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಿ</string>
+    <string name="adv_maintain_desc">ತಾಪಮಾನ ಮತ್ತು ತೇವಾಂಶವು ಸೂಕ್ತ ವ್ಯಾಪ್ತಿಯಲ್ಲಿವೆ.</string>
+    <string name="adv_vent_desc">ಸಾಕಣೆ ಕೋಣೆಯಲ್ಲಿ ಸರಿಯಾದ ಗಾಳಿಯ ಪ್ರಸರಣವನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
+    <string name="adv_clean_title_rec">ಸಾಕಣೆ ಪ್ರದೇಶವನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ</string>
+    <string name="adv_clean_desc_rec">ಸಾಕಣೆ ಹಾಸಿಗೆಯನ್ನು ಸ್ವಚ್ಛವಾಗಿ ಮತ್ತು ತೇವಾಂಶ ಮುಕ್ತವಾಗಿಡಿ.</string>
+    <string name="adv_mulberry_title">ಗುಣಮಟ್ಟದ ಹಿಪ್ಪುನೇರಳೆ ಎಲೆಗಳನ್ನು ನೀಡಿ</string>
+    <string name="adv_mulberry_desc">ತಾಜಾ ಮತ್ತು ಸ್ವಚ್ಛವಾದ ಹಿಪ್ಪುನೇರಳೆ ಎಲೆಗಳನ್ನು ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ನೀಡಿ.</string>
+    <string name="alert_high_temp">ಹೆಚ್ಚಿನ ತಾಪಮಾನ</string>
+    <string name="alert_high_temp_desc">ತಾಪಮಾನವು ಸೂಕ್ತ ಮಟ್ಟಕ್ಕಿಂತ ಹೆಚ್ಚಿದೆ. ನಿಯಮಿತವಾಗಿ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಿ.</string>
+    <string name="alert_high_hum">ಹೆಚ್ಚಿನ ತೇವಾಂಶ</string>
+    <string name="alert_high_hum_desc">ರೋಗ ಹರಡುವುದನ್ನು ತಡೆಯಲು ಗಾಳಿಯಾಡುವಿಕೆಯನ್ನು ಹೆಚ್ಚಿಸಿ.</string>
+    <string name="action_monitor">ಮೇಲ್ವಿಚಾರಣೆ</string>
+    <string name="action_take_action">ಕ್ರಮ</string>
+    <string name="heat_detected_advice">ಶಾಖ ಪತ್ತೆಯಾಗಿದೆ. ಸರಿಯಾದ ಗಾಳಿಯಾಡುವಿಕೆ ಮತ್ತು ನೀರಿನ ಪೂರೈಕೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
+    <string name="cool_weather_advice">ತಂಪಾದ ಹವಾಮಾನ. ಸಾಕಣೆ ಕೋಣೆಯನ್ನು ಬೆಚ್ಚಗಿಡಿ.</string>
+    <string name="optimal_conditions_advice">ಪರಿಸ್ಥಿತಿಗಳು ರೇಷ್ಮೆ ಹುಳುಗಳಿಗೆ ಸೂಕ್ತವಾಗಿವೆ. ಹೀಗೆಯೇ ಮುಂದುವರಿಸಿ!</string>
+
+    <!-- Harvest Timer -->
+    <string name="active_batch">ಸಕ್ರಿಯ ಬ್ಯಾಚ್</string>
+    <string name="view_details">ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="current_instar">ಪ್ರಸ್ತುತ ಇನ್ಸ್ಟಾರ್</string>
+    <string name="est_harvest">ಅಂದಾಜು ಕೊಯ್ಲು</string>
+    <string name="days_left">ದಿನಗಳು ಬಾಕಿ ಇವೆ</string>
+    <string name="timeline">ವೇಳಾಪಟ್ಟಿ</string>
+    <string name="key_tips">ಪ್ರಮುಖ ಸಲಹೆಗಳು</string>
+    <string name="harvest_alert">ಕೊಯ್ಲು ಎಚ್ಚರಿಕೆ</string>
+    <string name="harvest_alert_desc">2 ದಿನಗಳ ಮೊದಲು ತಿಳಿಸಿ.</string>
+    <string name="harvest_info_footer">ಉತ್ತಮ ಇಳುವರಿಗಾಗಿ ಕೊಯ್ಲು ಸಮಯ ಮುಖ್ಯವಾಗಿದೆ.</string>
+    <string name="day_x_of_y">ದಿನ %2$d ರಲ್ಲಿ %1$d</string>
+    <string name="no_active_batch_tracking">ಯಾವುದೇ ಸಕ್ರಿಯ ಬ್ಯಾಚ್ ಟ್ರ್ಯಾಕಿಂಗ್ ಇಲ್ಲ</string>
+    <string name="start_new_batch">ಹೊಸ ಬ್ಯಾಚ್ ಪ್ರಾರಂಭಿಸಿ</string>
+
+    <!-- Climate Trends -->
+    <string name="climate_analysis">ಹವಾಮಾನ ವಿಶ್ಲೇಷಣೆ</string>
+    <string name="track_farm_env">ನಿಮ್ಮ ಫಾರ್ಮ್ ಪರಿಸರದ ಸ್ಥಿರತೆಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ</string>
+    <string name="daily_trend">ದೈನಂದಿನ ಪ್ರವೃತ್ತಿ</string>
+    <string name="weekly_overview">ವಾರದ ಅವಲೋಕನ</string>
+    <string name="climate_stability">ಹವಾಮಾನ ಸ್ಥಿರತೆ</string>
+    <string name="env_stable_ideal">ನಿಮ್ಮ ಫಾರ್ಮ್ ಪರಿಸರವು ತುಂಬಾ ಸ್ಥಿರವಾಗಿದೆ. ರೇಷ್ಮೆ ಬೆಳವಣಿಗೆಗೆ ಸೂಕ್ತವಾಗಿದೆ.</string>
+    <string name="recent_logs">ಇತ್ತೀಚಿನ ದಾಖಲೆಗಳು</string>
+    <string name="ai_smart_tip">AI ಸ್ಮಾರ್ಟ್ ಟಿಪ್</string>
+    <string name="rising_hum_tip">ರಾತ್ರಿಯಲ್ಲಿ ತೇವಾಂಶ ಹೆಚ್ಚಾಗುತ್ತಿದೆ. ಶಿಲೀಂಧ್ರಗಳ ಬೆಳವಣಿಗೆ ತಡೆಯಲು ಗಾಳಿಯಾಡುವಿಕೆಯನ್ನು ಹೆಚ್ಚಿಸಿ.</string>
+
+    <!-- Alert Details -->
+    <string name="high_temp_alert">ಹೆಚ್ಚಿನ ತಾಪಮಾನದ ಎಚ್ಚರಿಕೆ</string>
+    <string name="high_temp_subtitle">ಪ್ರಸ್ತುತ ಕೋಣೆಯ ತಾಪಮಾನವು 4 ನೇ ಇನ್ಸ್ಟಾರ್ ಹಂತದ ಸೂಕ್ತ ಮಿತಿಯನ್ನು ಮೀರಿದೆ. ತಾಪದ ಒತ್ತದ ತಡೆಯಲು ತಕ್ಷಣದ ಕ್ರಮ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="low_hum_warning">ಕಡಿಮೆ ತೇವಾಂಶದ ಎಚ್ಚರಿಕೆ</string>
+    <string name="low_hum_subtitle">ತೇವಾಂಶದ ಮಟ್ಟವು ಶಿಫಾರಸು ಮಾಡಿದ ವ್ಯಾಪ್ತಿಗಿಂತ ಕಡಿಮೆಯಿದೆ. ಒಣ ಗಾಳಿಯು ಎಲೆಗಳು ಒಣಗಲು ಮತ್ತು ಕೀಟಗಳ ಕಳಪೆ ಬೆಳವಣಿಗೆಗೆ ಕಾರಣವಾಗಬಹುದು.</string>
+    <string name="vent_reminder">ಗಾಳಿಯಾಡುವಿಕೆಯ ಜ್ಞಾಪನೆ</string>
+    <string name="vent_subtitle">ಕೋಣೆಯಲ್ಲಿನ ಹಳೆಯ ಗಾಳಿ ಮತ್ತು CO2 ಸಂಗ್ರಹಣೆಯನ್ನು ತೆಗೆದುಹಾಕಲು ನಿಯಮಿತ ಗಾಳಿಯ ವಿನಿಮಯ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="feeding_reminder_title">ಆಹಾರದ ಜ್ಞಾಪನೆ</string>
+    <string name="feeding_subtitle">ಬೆಳಗಿನ ಆಹಾರದ ಸಮಯವಾಗಿದೆ. ಎಲೆಗಳು ತಾಜಾ ಮತ್ತು ಉತ್ತಮ ಗುಣಮಟ್ಟದ್ದಾಗಿವೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
+    <string name="batch_progress_title">ಬ್ಯಾಚ್ ಪ್ರಗತಿ ನವೀಕರಣ</string>
+    <string name="batch_progress_subtitle">ಅಭಿನಂದನೆಗಳು! ನಿಮ್ಮ ಸಕ್ರಿಯ ಬ್ಯಾಚ್ ಯಶಸ್ವಿಯಾಗಿ 4 ನೇ ಇನ್ಸ್ಟಾರ್ ಹಂತಕ್ಕೆ ತಲುಪಿದೆ.</string>
+    <string name="conditions_normal">ಸ್ಥಿತಿ ಸಹಜವಾಗಿದೆ</string>
+    <string name="conditions_normal_subtitle">ಸಾಕಣೆ ಪರಿಸರವು ಪ್ರಸ್ತುತ ರೇಷ್ಮೆ ಉತ್ಪಾದನೆಗೆ ಸೂಕ್ತವಾದ ನಿಯತಾಂಕಗಳಲ್ಲಿದೆ.</string>
+    <string name="climate_data">ಹವಾಮಾನ ಡೇಟಾ</string>
+    <string name="ideal_range">ಸೂಕ್ತ ಶ್ರೇಣಿ</string>
+    <string name="status_label">ಸ್ಥಿತಿ</string>
+    <string name="critical_overheat">ನಿರ್ಣಾಯಕ ಅಧಿಕ ತಾಪ</string>
+    <string name="log_corrective">ತಿದ್ದುಪಡಿ ಕ್ರಮವನ್ನು ದಾಖಲಿಸಿ</string>
+    <string name="update_hum">ತೇವಾಂಶ ನವೀಕರಿಸಿ</string>
+    <string name="mark_as_done">ಮುಗಿದಿದೆ ಎಂದು ಗುರುತಿಸಿ</string>
+    <string name="log_feeding">ಆಹಾರ ನೀಡಿಕೆಯನ್ನು ದಾಖಲಿಸಿ</string>
+    <string name="view_full_timeline">ಪೂರ್ಣ ವೇಳಾಪಟ್ಟಿಯನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="check_trends">ಪ್ರವೃತ್ತಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ</string>
+    <string name="feeding_guide">ಆಹಾರ ಮಾರ್ಗದರ್ಶಿ</string>
+    <string name="matured_leaves">ಬಲಿತ ಎಲೆಗಳು</string>
+    <string name="quantity">ಪ್ರಮಾಣ</string>
+    <string name="current_progress">ಪ್ರಸ್ತುತ ಪ್ರಗತಿ</string>
+    <string name="days_since_hatch">ಹೊತ್ತಿನಿಂದ ಕಳೆದ ದಿನಗಳು</string>
+    <string name="next_milestone">ಮುಂದಿನ ಮೈಲಿಗಲ್ಲು</string>
+    <string name="env_summary">ಪರಿಸರ ಸಾರಾಂಶ</string>
+
+    <!-- Detailed Advice -->
+    <string name="expert_guidance">ತಜ್ಞರ ಮಾರ್ಗದರ್ಶನ</string>
+    <string name="actionable_steps">ಕ್ರಮಬದ್ಧ ಹಂತಗಳು</string>
+    <string name="qa_note">ಈ ಮಾರ್ಗದರ್ಶನವನ್ನು ಅನುಸರಿಸುವುದರಿಂದ ಗೂಡಿನ ತೂಕ ಮತ್ತು ಗುಣಮಟ್ಟ ಗಣನೀಯವಾಗಿ ಸುಧಾರಿಸುತ್ತದೆ.</string>
+
+    <string name="adv_vent_title">ಗಾಳಿಯ ಹರಿವು ಮತ್ತು ಗಾಳಿಯಾಡುವಿಕೆ</string>
+    <string name="adv_vent_tagline">ಸಾಕಣೆ ಕೋಣೆಯನ್ನು ತಾಜಾವಾಗಿಡಿ</string>
+    <string name="adv_vent_content">ರೇಷ್ಮೆ ಹುಳುಗಳು ನಿಂತ ಗಾಳಿಗೆ ಅತಿ ಸೂಕ್ಷ್ಮವಾಗಿರುತ್ತವೆ. ಸರಿಯಾದ ಗಾಳಿಯಾಡುವಿಕೆಯು ಹೆಚ್ಚುವರಿ CO2 ಮತ್ತು ತೇವಾಂಶವನ್ನು ತೆಗೆದುಹಾಕಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ, ಇದು ರೋಗಗಳನ್ನು ತಡೆಯುತ್ತದೆ.</string>
+    <string name="adv_vent_tip1">ಗಾಳಿಯಾಡುವಿಕೆಗಾಗಿ ಹಗಲಿನಲ್ಲಿ ಕಿಟಕಿಗಳನ್ನು ತೆರೆಯಿರಿ.</string>
+    <string name="adv_vent_tip2">ಗಾಳಿಯು ಭಾರವೆನಿಸಿದರೆ ಫ್ಯಾನ್‌ಗಳನ್ನು ಬಳಸಿ.</string>
+    <string name="adv_vent_tip3">ಹುಳುಗಳ ಮೇಲೆ ನೇರವಾದ ಬಲವಾದ ಗಾಳಿಯನ್ನು ತಪ್ಪಿಸಿ.</string>
+    <string name="adv_vent_tip4">ನಂತರದ ಹಂತಗಳಲ್ಲಿ ಹೆಚ್ಚಿನ ಗಾಳಿಯಾಡುವಿಕೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
+
+    <string name="adv_clean_title">ನೈರ್ಮಲ್ಯ ಮತ್ತು ಸ್ವಚ್ಛತೆ</string>
+    <string name="adv_clean_tagline">ರೋಗಮುಕ್ತ ಶೆಡ್ ನಿರ್ವಹಿಸಿ</string>
+    <string name="adv_clean_content">ನಿಯಮಿತ ಹಾಸಿಗೆ ಸ್ವಚ್ಛಗೊಳಿಸುವಿಕೆಯು ತ್ಯಾಜ್ಯ ಮತ್ತು ಕೊಳೆಯುವ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ.</string>
+    <string name="adv_clean_tip1">ಪ್ರತಿ ಮೌಲ್ಟ್ ನಂತರ ಹಾಸಿಗೆಯನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ.</string>
+    <string name="adv_clean_tip2">ಯಾವುದೇ ಕೆಲಸದ ಮೊದಲು ಕೈಗಳನ್ನು ತೊಳೆದುಕೊಳ್ಳಿ.</string>
+    <string name="adv_clean_tip3">ತ್ಯಾಜ್ಯವನ್ನು ಶೆಡ್‌ನಿಂದ ದೂರ ವಿಲೇವಾರಿ ಮಾಡಿ.</string>
+    <string name="adv_clean_tip4">ಹಾಸಿಗೆ ಒಣಗಿಸಲು ಸುಣ್ಣದ ಪುಡಿ ಸಿಂಪಡಿಸಿ.</string>
+
+    <string name="adv_feed_title">ಆಹಾರ ನಿರ್ವಹಣೆ</string>
+    <string name="adv_feed_tagline">ಉತ್ತಮ ರೇಷ್ಮೆಗಾಗಿ ಪೌಷ್ಟಿಕ ಎಲೆಗಳು</string>
+    <string name="adv_feed_content">ರೇಷ್ಮೆ ಹುಳುಗಳ ಬೆಳವಣಿಗೆಯು ಹಿಪ್ಪುನೇರಳೆ ಎಲೆಗಳ ಗುಣಮಟ್ಟವನ್ನು ಅವಲಂಬಿಸಿರುತ್ತದೆ.</string>
+    <string name="adv_feed_tip1">ಮುಂಜಾನೆ ಅಥವಾ ಸಂಜೆ ಎಲೆಗಳನ್ನು ಕೊಯ್ಲು ಮಾಡಿ.</string>
+    <string name="adv_feed_tip2">ತೇವಾಂಶ ಉಳಿಸಲು ಒದ್ದೆ ಚೀಲದ ಅಡಿಯಲ್ಲಿ ಎಲೆಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ.</string>
+    <string name="adv_feed_tip3">ಒಣಗಿದ ಅಥವಾ ಹಳದಿ ಎಲೆಗಳನ್ನು ನೀಡಬೇಡಿ.</string>
+    <string name="adv_feed_tip4">ನಿಯಮಿತ ಆಹಾರ ನೀಡುವಿಕೆಯು ಏಕರೂಪದ ಬೆಳವಣಿಗೆಯನ್ನು ಉತ್ತೇಜಿಸುತ್ತದೆ.</string>
+
+    <string name="adv_ideal_title">ಸೂಕ್ತ ಪರಿಸರ</string>
+    <string name="adv_ideal_tagline">ರೇಷ್ಮೆ ಹುಳುಗಳಿಗೆ ಸೂಕ್ತ ಸ್ಥಿತಿಗಳು</string>
+    <string name="adv_ideal_content">ಯಶಸ್ವಿ ರೇಷ್ಮೆ ಕೃಷಿಗೆ ಸೂಕ್ತವಾದ ತಾಪಮಾನ ಮತ್ತು ತೇವಾಂಶವನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳುವುದು ಅಡಿಪಾಯವಾಗಿದೆ.</string>
+    <string name="adv_ideal_tip1">ದಿನಕ್ಕೆ ಹಲವು ಬಾರಿ ತಾಪಮಾನವನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಿ.</string>
+    <string name="adv_ideal_tip2">ತೇವಾಂಶವನ್ನು ಹಂತಕ್ಕೆ ಅನುಗುಣವಾಗಿ ಕಾಪಾಡಿಕೊಳ್ಳಿ.</string>
+    <string name="adv_ideal_tip3">ಪರಿಸರದ ಹಠಾತ್ ಬದಲಾವಣೆಗಳನ್ನು ತಪ್ಪಿಸಿ.</string>
+    <string name="adv_ideal_tip4">ಸಾಕಣೆ ಮನೆಯಲ್ಲಿ ಸರಿಯಾದ ಗಾಳಿಯ ಗುಣಮಟ್ಟವನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
+
+    <!-- Location Support -->
+    <string name="use_current_location">ಪ್ರಸ್ತುತ ಸ್ಥಳ ಬಳಸಿ</string>
+    <string name="fetching_location">ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಹುಡುಕಲಾಗುತ್ತಿದೆ...</string>
+    <string name="location_success">ಸ್ಥಳವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಪಡೆಯಲಾಗಿದೆ</string>
+    <string name="location_error">ಸ್ಥಳವನ್ನು ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ</string>
+    <string name="permission_denied">ಸ್ಥಳದ ಅನುಮತಿಯನ್ನು ನಿರಾಕರಿಸಲಾಗಿದೆ</string>
+    <string name="no_internet">ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವಿಲ್ಲ</string>
+    <string name="village">ಗ್ರಾಮ</string>
+    <string name="district">ಜಿಲ್ಲೆ</string>
+    <string name="state">ರಾಜ್ಯ</string>
+    <string name="pincode">ಪಿನ್ ಕೋಡ್</string>
+    <string name="save_changes">ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ</string>
+    <string name="english">ಇಂಗ್ಲಿಷ್</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="language_settings_title">ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="update_password">ಪಾಸ್‌ವರ್ಡ್ ನವೀಕರಿಸಿ</string>
+    <string name="humidity">ತೇವಾಂಶ</string>
+    <string name="wind">ಗಾಳಿ</string>
+    <string name="karnataka">ಕರ್ನಾಟಕ</string>
+    <string name="placeholder_title">ವೈಶಿಷ್ಟ್ಯ: %1$s</string>
+    <string name="placeholder_desc">%1$s ವೈಶಿಷ್ಟ್ಯವು ಮುಂದಿನ ಅಪ್‌ಡೇಟ್‌ನಲ್ಲಿ ಲಭ್ಯವಿರುತ್ತದೆ.</string>
+    <string name="back">ಹಿಂದಕ್ಕೆ</string>
+    <string name="menu">ಮೆನು</string>
+    <string name="loading">ಲೋಡ್ ಆಗುತ್ತಿದೆ...</string>
+
+    <!-- Location Request Card -->
+    <string name="location_rationale_title">ಸ್ಥಳದ ಪ್ರವೇಶವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="location_rationale_desc">ನಿಮಗೆ ಸ್ಥಳೀಯ ಹವಾಮಾನ ನವೀಕರಣಗಳನ್ನು ಒದಗಿಸಲು ಮತ್ತು ನಿಮ್ಮ ಫಾರ್ಮ್ ವಿಳಾಸವನ್ನು ಸ್ವಯಂ-ಭರ್ತಿ ಮಾಡಲು, ನಿಮ್ಮ ಸ್ಥಳದ ಪ್ರವೇಶ ನಮಗೆ ಬೇಕು.</string>
+    <string name="allow_location">ಅನುಮತಿಸಿ</string>
+    <string name="maybe_later">ನಂತರ ನೋಡೋಣ</string>
+
+    <!-- Climate Entry -->
+    <string name="log_schedule">ದಾಖಲೆ ವೇಳಾಪಟ್ಟಿ</string>
+    <string name="date_label">ದಿನಾಂಕ</string>
+    <string name="time_label">ಸಮಯ</string>
+    <string name="env_monitoring">ಪರಿಸರ ಮೇಲ್ವಿಚಾರಣೆ</string>
+    <string name="condition_analysis">ಪರಿಸ್ಥಿತಿ ವಿಶ್ಲೇಷಣೆ</string>
+    <string name="cond_optimal">ಪರಿಸ್ಥಿತಿ: ಉತ್ತಮ</string>
+    <string name="cond_optimal_desc">ಪ್ರಸ್ತುತ ಹಂತಕ್ಕೆ ಸೂಕ್ತವಾಗಿದೆ.</string>
+    <string name="cond_high_risk">ಪರಿಸ್ಥಿತಿ: ಹೆಚ್ಚಿನ ಅಪಾಯ</string>
+    <string name="cond_high_risk_desc">ಅತಿಯಾದ ಶಾಖ/ತೇವಾಂಶ!</string>
+    <string name="cond_moderate">ಪರಿಸ್ಥಿತಿ: ಮಧ್ಯಮ</string>
+    <string name="cond_moderate_desc">ಹೊಂದಾಣಿಕೆಗಳು ಇಳುವರಿಯನ್ನು ಸುಧಾರಿಸಬಹುದು.</string>
+    <string name="set_time">ಸಮಯ ಹೊಂದಿಸಿ</string>
+
+    <!-- Breeds & Types -->
+    <string name="bivoltine">ಬೈವೋಲ್ಟೈನ್</string>
+    <string name="multivoltine">ಮಲ್ಟಿವೋಲ್ಟೈನ್</string>
+    <string name="cross_breed">ಕ್ರಾಸ್ ಬ್ರೀಡ್</string>
+    <string name="v1">ವಿ1</string>
+    <string name="s36">ಎಸ್36</string>
+    <string name="g4">ಜಿ4</string>
+    <string name="local">ಸ್ಥಳೀಯ</string>
+    <string name="instar_1">1 ನೇ ಇನ್ಸ್ಟಾರ್</string>
+    <string name="instar_2">2 ನೇ ಇನ್ಸ್ಟಾರ್</string>
+    <string name="instar_3">3 ನೇ ಇನ್ಸ್ಟಾರ್</string>
+    <string name="instar_4">4 ನೇ ಇನ್ಸ್ಟಾರ್</string>
+    <string name="instar_5">5 ನೇ ಇನ್ಸ್ಟಾರ್</string>
+    <string name="cocooning">ಗೂಡು ಕಟ್ಟುವ ಹಂತ</string>
+
+    <!-- Export & Sync -->
+    <string name="complete_data">ಸಂಪೂರ್ಣ ಡೇಟಾ</string>
+    <string name="current_batch_only">ಪ್ರಸ್ತುತ ಬ್ಯಾಚ್ ಮಾತ್ರ</string>
+    <string name="climate_logs_only">ಹವಾಮಾನ ದಾಖಲೆಗಳು ಮಾತ್ರ</string>
+    <string name="pdf_doc">ಪಿಡಿಎಫ್ ಡಾಕ್ಯುಮೆಂಟ್</string>
+    <string name="excel_sheet">ಎಕ್ಸೆಲ್ ಸ್ಪ್ರೆಡ್‌ಶೀಟ್ (.xlsx)</string>
+    <string name="csv_file">ಸಿಎಸ್ವಿ ಫೈಲ್</string>
+
+    <!-- FAQ & Help -->
+    <string name="faq_q1">ದೈನಂದಿನ ತಾಪಮಾನವನ್ನು ಹೇಗೆ ದಾಖಲಿಸುವುದು?</string>
+    <string name="faq_a1">ಹೋಮ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನಲ್ಲಿರುವ ಹವಾಮಾನ ದಾಖಲೆ ವಿಭಾಗಕ್ಕೆ ಹೋಗಿ ಮತ್ತು ಪ್ರಸ್ತುತ ರೀಡಿಂಗ್ ಅನ್ನು ನಮೂದಿಸಿ.</string>
+    <string name="faq_q2">ನಾನು ಏಕಕಾಲದಲ್ಲಿ ಅನೇಕ ಬ್ಯಾಚ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸಬಹುದೇ?</string>
+    <string name="faq_a2">ಹೌದು, ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಬ್ಯಾಚ್‌ಗಳ ಜೊತೆಗೆ ಹೊಸ ಬ್ಯಾಚ್ ಪ್ರಾರಂಭಿಸಲು ಬ್ಯಾಚ್ ಸೇರಿಸಿ ವಿಭಾಗವನ್ನು ಬಳಸಿ.</string>
+    <string name="faq_q3">ಬದುಕುಳಿಯುವ ದರ ಕಡಿಮೆಯಾದರೆ ಏನು ಮಾಡಬೇಕು?</string>
+    <string name="faq_a3">ಸಮಸ್ಯೆ ಪರಿಹಾರಕ್ಕಾಗಿ ಸ್ಮಾರ್ಟ್ ಸಲಹೆ ವಿಭಾಗವನ್ನು ಪರಿಶೀಲಿಸಿ.</string>
+
+    <!-- Legal -->
+    <string name="welcome_legal">ನಮ್ಮ ರೇಷ್ಮೆ ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಸುಸ್ವಾಗತ. ಈ ಅಪ್ಲಿಕೇಶನ್ ಬಳಸುವ ಮೂಲಕ, ನೀವು ಈ ಕೆಳಗಿನ ನಿಯಮ ಮತ್ತು ನಿಬಂಧನೆಗಳಿಗೆ ಒಪ್ಪುತ್ತೀರಿ:</string>
+    <string name="legal_s1_title">1. ನಿಯಮಗಳ ಅಂಗೀಕಾರ</string>
+    <string name="legal_s1_body">ನಮ್ಮ ರೇಷ್ಮೆ ಮೊಬೈಲ್ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಪ್ರವೇಶಿಸುವ ಅಥವಾ ಬಳಸುವ ಮೂಲಕ, ನೀವು ಈ ಸೇವಾ ನಿಯಮಗಳನ್ನು ಓದಿದ್ದೀರಿ, ಅರ್ಥಮಾಡಿಕೊಂಡಿದ್ದೀರಿ ಮತ್ತು ಬದ್ಧರಾಗಿರಲು ಒಪ್ಪಿದ್ದೀರಿ ಎಂದು ಅಂಗೀಕರಿಸುತ್ತೀರಿ.</string>
+    <string name="legal_s2_title">2. ಬಳಕೆದಾರರ ಖಾತೆಗಳು</string>
+    <string name="legal_s2_body">ನಿಮ್ಮ ಖಾತೆಯ ಗೌಪ್ಯತೆಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಲು ನೀವು ಜವಾಬ್ದಾರರಾಗಿರುತ್ತೀರಿ. ನಿಮ್ಮ ಖಾತೆಯ ಅಡಿಯಲ್ಲಿ ನಡೆಯುವ ಎಲ್ಲಾ ಚಟುವಟಿಕೆಗಳಿಗೆ ನೀವೇ ಜವಾಬ್ದಾರರು.</string>
+    <string name="legal_s3_title">3. ಡೇಟಾ ನಿಖರತೆ</string>
+    <string name="legal_s3_body">ನೀವು ನಮೂದಿಸುವ ಡೇಟಾದ ಆಧಾರದ ಮೇಲೆ ಅಪ್ಲಿಕೇಶನ್ ಸಲಹೆಯನ್ನು ನೀಡುತ್ತದೆ. ನಾವು ನಿಖರತೆಗಾಗಿ ಶ್ರಮಿಸುತ್ತಿದ್ದರೂ, ಅಪ್ಲಿಕೇಶನ್ ಶಿಫಾರಸುಗಳ ಆಧಾರದ ಮೇಲೆ ತೆಗೆದುಕೊಂಡ ನಿರ್ಧಾರಗಳಿಂದ ಉಂಟಾಗುವ ಯಾವುದೇ ನಷ್ಟಗಳಿಗೆ ನಾವು ಜವಾಬ್ದಾರರಲ್ಲ.</string>
+    <string name="legal_s4_title">4. ಬೌದ್ಧಿಕ ಆಸ್ತಿ</string>
+    <string name="legal_s4_body">ಈ ಅಪ್ಲಿಕೇಶನ್‌ನ ವಿಷಯ, ಲೋಗೋ ಮತ್ತು ಸಾಫ್ಟ್‌ವೇರ್ ಹಕ್ಕುಸ್ವಾಮ್ಯ ಕಾನೂನುಗಳಿಂದ ರಕ್ಷಿಸಲ್ಪಟ್ಟಿದೆ ಮತ್ತು ಸಿಲ್ಕ್‌ಟೆಕ್ ಸೊಲ್ಯೂಷನ್ಸ್‌ಗೆ ಸೇರಿದೆ.</string>
+    <string name="legal_s5_title">5. ಮಾರ್ಪಾಡುಗಳು</string>
+    <string name="legal_s5_body">ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಈ ನಿಯಮಗಳನ್ನು ಮಾರ್ಪಡಿಸುವ ಹಕ್ಕನ್ನು ನಾವು ಕಾಯ್ದಿರಿಸಿದ್ದೇವೆ.</string>
+
+    <string name="privacy_welcome">ನಿಮ್ಮ ಗೌಪ್ಯತೆ ನಮಗೆ ಮುಖ್ಯವಾಗಿದೆ. ನಿಮ್ಮ ಡೇಟಾವನ್ನು ನಾವು ಹೇಗೆ ನಿರ್ವಹಿಸುತ್ತೇವೆ ಎಂಬ ವಿವರ ಇಲ್ಲಿದೆ:</string>
+    <string name="priv_s1_title">ಡೇಟಾ ಸಂಗ್ರಹಣೆ</string>
+    <string name="priv_s1_body">ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ ಕೃಷಿ ಸಲಹೆ ಮತ್ತು ಹವಾಮಾನ ನವೀಕರಣಗಳನ್ನು ಒದಗಿಸಲು ನಾವು ಹೆಸರು, ಫೋನ್ ಸಂಖ್ಯೆ ಮತ್ತು ಸ್ಥಳದಂತಹ ವೈಯಕ್ತಿಕ ವಿವರಗಳನ್ನು ಸಂಗ್ರಹಿಸುತ್ತೇವೆ.</string>
+    <string name="priv_s2_title">ಸ್ಥಳ ಪ್ರವೇಶ</string>
+    <string name="priv_s2_body">ಸ್ಥಳೀಯ ಹವಾಮಾನವನ್ನು ಪಡೆಯಲು ಮತ್ತು ಸ್ಮಾರ್ಟ್ ಎಚ್ಚರಿಕೆಗಳಿಗಾಗಿ ನಿಮ್ಮ ಫಾರ್ಮ್ ನಿರ್ದೇಶಾಂಕಗಳನ್ನು ಸಿಂಕ್ ಮಾಡಲು ಸ್ಥಳ ಪ್ರವೇಶವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.</string>
+    <string name="priv_s3_title">ಡೇಟಾ ಹಂಚಿಕೆ</string>
+    <string name="priv_s3_body">ನಾವು ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಡೇಟಾವನ್ನು ಮೂರನೇ ವ್ಯಕ್ತಿಗಳಿಗೆ ಮಾರಾಟ ಮಾಡುವುದಿಲ್ಲ.</string>
+    <string name="priv_s4_title">ಭದ್ರತೆ</string>
+    <string name="priv_s4_body">ಅನಧಿಕೃತ ಪ್ರವೇಶದಿಂದ ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ರಕ್ಷಿಸಲು ನಾವು ಉದ್ಯಮ-ದರ್ಜೆಯ ಭದ್ರತಾ ಕ್ರಮಗಳನ್ನು ಅಳವಡಿಸುತ್ತೇವೆ.</string>
+
+    <!-- Alerts Specific -->
+    <string name="alert_high_temp_title">ಹೆಚ್ಚಿನ ತಾಪಮಾನದ ಎಚ್ಚರಿಕೆ</string>
+    <string name="alert_high_temp_desc_long">ತಾಪಮಾನವು ಸೂಕ್ತ ವ್ಯಾಪ್ತಿಗಿಂತ ಹೆಚ್ಚಿದೆ.</string>
+    <string name="alert_low_hum_title">ಕಡಿಮೆ ತೇವಾಂಶದ ಎಚ್ಚರಿಕೆ</string>
+    <string name="alert_low_hum_desc_long">ತೇವಾಂಶವು ಶಿಫಾರಸು ಮಾಡಿದ ಮಟ್ಟಕ್ಕಿಂತ ಕಡಿಮೆಯಿದೆ.</string>
+    <string name="alert_vent_title">ಗಾಳಿಯಾಡುವಿಕೆಯ ಜ್ಞಾಪನೆ</string>
+    <string name="alert_vent_desc_long">ಕೋಣೆಯಲ್ಲಿ ಸರಿಯಾದ ಗಾಳಿಯ ಪ್ರಸರಣವನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
+    <string name="alert_feeding_title">ಆಹಾರದ ಜ್ಞಾಪನೆ</string>
+    <string name="alert_feeding_desc_long">ತಾಜಾ ಮತ್ತು ಸ್ವಚ್ಛವಾದ ಹಿಪ್ಪುನೇರಳೆ ಎಲೆಗಳನ್ನು ನೀಡಿ.</string>
+    <string name="alert_cond_normal_title">ಸ್ಥಿತಿ ಸಹಜವಾಗಿದೆ</string>
+    <string name="alert_cond_normal_desc_long">ತಾಪಮಾನ ಮತ್ತು ತೇವಾಂಶವು ಸೂಕ್ತ ವ್ಯಾಪ್ತಿಯಲ್ಲಿವೆ.</string>
+    <string name="alert_batch_prog_title">ಬ್ಯಾಚ್ ಪ್ರಗತಿ ನವೀಕರಣ</string>
+    <string name="alert_batch_prog_desc_long">ಬ್ಯಾಚ್ %1$s ಈಗ %2$s ಹಂತ ತಲುಪಿದೆ.</string>
+
+    <string name="ideal_range_format">ಸೂಕ್ತ: %1$s - %2$s</string>
+    <string name="current_val_format">ಪ್ರಸ್ತುತ: %1$s</string>
+
+    <!-- Landing -->
+    <string name="instar_based_advice">ಹಂತದ ಆಧಾರಿತ\nಸಲಹೆ</string>
+    <string name="voice_guidance">ಧ್ವನಿ\nಮಾರ್ಗದರ್ಶನ</string>
+    <string name="made_for_silk_farmers">ರೇಷ್ಮೆ ರೈತರಿಗಾಗಿ ನಿರ್ಮಿಸಲಾಗಿದೆ</string>
+    <string name="slogan_text">ರೈತರ ಸಬಲೀಕರಣ,\nರೇಷ್ಮೆ ಬೆಳೆಸಿ, ಭವಿಷ್ಯ ನಿರ್ಮಿಸಿ.</string>
+    <string name="climate_monitoring">ಹವಾಮಾನ\nಮೇಲ್ವಿಚಾರಣೆ</string>
+    <string name="smart_alerts_feat">ಸ್ಮಾರ್ಟ್ ಸಲಹೆ\nಎಚ್ಚರಿಕೆಗಳು</string>
+
+    <!-- Batch Details -->
+    <string name="batch_details_title">ಬ್ಯಾಚ್ ವಿವರಗಳು</string>
+    <string name="batch_not_found">ಬ್ಯಾಚ್ ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="climate_logs_summary">ಹವಾಮಾನ ದಾಖಲೆಗಳ ಸಾರಾಂಶ</string>
+    <string name="notes_observations">ಟಿಪ್ಪಣಿಗಳು ಮತ್ತು ಅವಲೋಕನಗಳು</string>
+    <string name="tbd">ಇನ್ನೂ ನಿರ್ಧರಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="current_stage_label">ಪ್ರಸ್ತುತ ಹಂತ</string>
+    <string name="avg_temp">ಸರಾಸರಿ ತಾಪಮಾನ</string>
+    <string name="avg_humidity">ಸರಾಸರಿ ತೇವಾಂಶ</string>
+    <string name="total_logs_format">ಒಟ್ಟು ದಾಖಲೆಗಳು: %1$d. ಇತ್ತೀಚಿನ ದಾಖಲೆ %2$s ರಂದು %3$s ಕ್ಕ್ಕೆ.</string>
+
+    <!-- Detailed Tips -->
+    <string name="sprinkle_water_tip">ಅಗತ್ಯವಿದ್ದರೆ ನೆಲದ ಮೇಲೆ ನೀರು ಚಿಮುಕಿಸಿ.</string>
+    <string name="hang_bags_tip">ಸಾಕಣೆ ಪ್ರದೇಶದ ಸುತ್ತಲೂ ಒದ್ದೆ ಚೀಲಗಳನ್ನು ನೇತುಹಾಕಿ.</string>
+    <string name="vent_desc_long">ಸರಿಯಾದ ಗಾಳಿಯಾಡುವಿಕೆಯು ಆರೋಗ್ಯಕರ ಬೆಳವಣಿಗೆಯನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ ಮತ್ತು ರೋಗ ಹರಡುವುದನ್ನು ತಡೆಯುತ್ತದೆ.</string>
+    <string name="action_plan">ಕ್ರಮ ಯೋಜನೆ</string>
+    <string name="run_fans_tip">ಕನಿಷ್ಠ 30 ನಿಮಿಷಗಳ ಕಾಲ ಫ್ಯಾನ್‌ಗಳನ್ನು ಚಲಾಯಿಸಿ.</string>
+    <string name="leaf_type_label">ಎಲೆ ವಿಧ</string>
+    <string name="kg_approx_format">ಸುಮಾರು %1$.1f ಕೆಜಿ.</string>
+    <string name="days_count_format">%1$d ದಿನಗಳು</string>
+    <string name="next_stage_in_format">%2$d ದಿನಗಳಲ್ಲಿ %1$s</string>
+    <string name="good_status">ಉತ್ತಮ</string>
+    <string name="avg_format">ಸರಾಸರಿ: %1$d</string>
+
+    <!-- Worker Notifications -->
+    <string name="notif_harvest_title">ಕೊಯ್ಲು ಜ್ಞಾಪನೆ</string>
+    <string name="notif_harvest_msg">ಬ್ಯಾಚ್ %1$s ಇನ್ನ %2$d ದಿನಗಳಲ್ಲಿ ಕೊಯ್ಲಿಗೆ ಬರಲಿದೆ!</string>
+    <string name="notif_climate_temp_title">ಹವಾಮಾನ ಎಚ್ಚರಿಕೆ: ಹೆಚ್ಚಿನ ತಾಪಮಾನ</string>
+    <string name="notif_climate_temp_msg">ಸಾಕಣೆ ಮನೆಯ ತಾಪಮಾನವು %1$.1f°C ಇದೆ. ಗಾಳಿಯಾಡುವಿಕೆಯನ್ನು ಹೆಚ್ಚಿಸಿ!</string>
+    <string name="notif_climate_hum_title">ಹವಾಮಾನ ಎಚ್ಚರಿಕೆ: ಕಡಿಮೆ ತೇವಾಂಶ</string>
+    <string name="notif_climate_hum_msg">ತೇವಾಂಶವು %1$.1f%% ಇದೆ. ಒಣ ಗಾಳಿಯು ಬೆಳವಣಿಗೆಯ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದು.</string>
+    <string name="notif_permission_denied">ಅಧಿಸೂಚನೆ ಅನುಮತಿಯನ್ನು ನಿರಾಕರಿಸಲಾಗಿದೆ. ನೀವು ಎಚ್ಚರಿಕೆಗಳನ್ನು ಪಡೆಯುವುದಿಲ್ಲ.</string>
+
+</resources>
